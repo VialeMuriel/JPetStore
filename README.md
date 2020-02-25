@@ -1,2 +1,2 @@
 # JPetStore
-JPetStore Demo
+JPetStore Demo ready to be deployed
