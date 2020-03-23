@@ -1,7 +1,7 @@
 # JPetStore
 # Our CI/CD Process BLABLA
 We designed our continuous integration / continuous process with 3 phases from Planning to Development to Deployment and a certain number of stages per phases : Backlog, Selected for Development, In Progress, In Review…
-
+![Introduction CI CD](./images/Velocity-IntroCICD.png)
 
 -	Create a new Story  in the Backlog of JIRA. It is displayed  in the “Backlog” stage in Velocity.
 
