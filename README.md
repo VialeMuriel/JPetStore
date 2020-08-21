@@ -1,14 +1,21 @@
 # JPetStore
-# Our CI/CD Process BLABLA
-We designed our continuous integration / continuous process with 3 phases from Planning to Development to Deployment and a certain number of stages per phases : Backlog, Selected for Development, In Progress, In Review…
+# Our CI/CD Process
+Our continuous integration / continuous deployment process contains 3 main phases - from Planning to Development to Deployment - and a certain number of stages per phase : Backlog, Selected for Development, In Progress, In Review…
+
 ![Introduction CI CD](./images/Velocity-IntroCICD.png)
 
--	Create a new Story  in the Backlog of JIRA. It is displayed  in the “Backlog” stage in Velocity.
+We use :
+- JIRA to track the progress of our project.
+- GITHUB for source code repository.
+- Jenkins to drive the build.
+- And finally UrbanCode Deploy to deploy into the different environments.
+
+When we create a new Story in the Backlog of JIRA. It is displayed  in the “Backlog” stage in Velocity.
 
 
 -	Move the stories and bugs that will be included in the next release to “Selected for Development stage”. The story is then displayed in the “Selected for Development phase” on Velocity
 
--	As soon as a developer starts to work on a Story or a Bug, he moves the story into the “In Progress stage” and start coding. The story is then displayed in the “In Progress” s on Velocity
+-	As soon as a developer starts to work on a Story or a Bug, he moves the story into the “In Progress stage” and start coding. The story is then displayed in the “In Progress” stage in Velocity.
 
 -	The developer starts to work on the story.
 
