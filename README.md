@@ -6,7 +6,6 @@ Our continuous integration / continuous deployment process contains 3 main phase
 
 We use :
 - JIRA to track the progress of our project.
-- GITHUB for source code repository.
 - Jenkins to drive the build.
 - And finally UrbanCode Deploy to deploy into the different environments.
 
@@ -53,5 +52,4 @@ This snapshot appears immediately as an input on the Velocity pipeline and can b
 
 We can now push the snapshot to the DEV environment using Velocity. All components and applications participating to the release will be pushed and tested together.
 
-After test and validation of our snapshot on DEV, the release can then be pushed to the SIT environment, and update the JPetStore website :
-.  
+After test and validation of our snapshot on DEV, the release can then be pushed to the SIT environment, and update the JPetStore website.  
