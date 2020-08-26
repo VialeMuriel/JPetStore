@@ -1,4 +1,4 @@
-# JPetStore Modif JPET-5 Branch develop
+# JPetStore Modif JPET-7
 # Our CI/CD Process
 Our continuous integration / continuous deployment process contains 3 main phases - from Planning to Development to Deployment - and a certain number of stages per phase : Backlog, Selected for Development, In Progress, In Review…
 
@@ -34,13 +34,9 @@ git commit -m “JPET-N (changes for story N)”
 git push origin JPET-N-develop
 ```
 - Back to GIT hub, we can see the commit in the develop branch
--	The developer opens a pull request to push his code in the review process. The story goes into the “In Review” stage on Velocity.
+-	The developer opens a pull request to push his code in the review process. The story goes into the “In Review” stage on Velocity. We can open the pull request in GitHub by clicking in the history of the dots.
 
-And if we click on the link provided in the dot, we open the pull request in GitHub:
-
--	After the review process, the pull request is merged and the changes are merged into the master branch. The story move to the “Merged” state in Velocity.
-
-Again, we can go from the dot to the GitHub with the link provided in the detail view of the dot.
+-	After the review process, the pull request is merged and the changes are merged into the master branch. The story move to the “Merged” state in Velocity. Again, we can go from the dot to the GitHub with the link provided in the detail view of the dot.
 
 -	The code is now ready to be built and pushed to the artefact repository (code station in our case). As the build starts in Jenkins, the story goes into the Build stage in Velocity and the new version is loaded into UrbanCode Deploy.
 
