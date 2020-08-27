@@ -1,5 +1,4 @@
-# JPetStore Modif JPET-7
-# Our CI/CD Process
+# JPetStore Application CI/CD Process
 Our continuous integration / continuous deployment process contains 3 main phases - from Planning to Development to Deployment - and a certain number of stages per phase : Backlog, Selected for Development, In Progress, In Review…
 
 ![Introduction CI CD](./images/Velocity-IntroCICD.png)
