@@ -1,6 +1,6 @@
 # JPetStore Application CI/CD Process
 
-Changes for Story 8
+Changes for Story 8 ??
 
 Our continuous integration / continuous deployment process contains 3 main phases - from Planning to Development to Deployment - and a certain number of stages per phase : Backlog, Selected for Development, In Progress, In Review…
 
