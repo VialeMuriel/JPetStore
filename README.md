@@ -1,6 +1,5 @@
-# JPetStore Application CI/CD Process
-
-Changes for Story 12
+# JPetStore Application CI/CD Process with JIRA
+Creating a Jira and UCD Value Stream in Velocity
 
 Our continuous integration / continuous deployment process contains 3 main phases - from Planning to Development to Deployment - and a certain number of stages per phase : Backlog, Selected for Development, In Progress, In Review…
 
