@@ -1,6 +1,5 @@
-# JPetStore Application CI/CD Process
-
-Changes for Story 10
+# JPetStore Application CI/CD Process with JIRA
+Creating a Jira and UCD Value Stream in Velocity
 
 Our continuous integration / continuous deployment process contains 3 main phases - from Planning to Development to Deployment - and a certain number of stages per phase : Backlog, Selected for Development, In Progress, In Review…
 
@@ -53,4 +52,11 @@ We can now push the snapshot to the DEV environment using Velocity. All componen
 After test and validation of our snapshot on DEV, the release can then be pushed to the SIT environment, and update the JPetStore website.  
 
 Steps when using Atom and SourceTree:
-- In Source Tree, check out the branch develop.
+- In Jira, there is a story ready to be implemented, In Progress state.
+- In Source Tree, check out the develop branch.
+- In Atom, make a change to readme file.
+- In Source Tree, stage all and commit with a message starting with the story number.
+Note: the pull request cannot be opened in Source Tree with an error message. So we have to create it with Git Hub. To be investigated.
+- On Git Hub remote, we can verify that the code is on the remote develop branch. So we can create the pull request.
+- Pull Request created,  the dot goes into the Review stage.
+- Pull Request can be merged: the dot goes into the merged state.
